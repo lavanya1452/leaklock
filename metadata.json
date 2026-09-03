@@ -1,0 +1,6 @@
+{
+  "name": "LeakLock",
+  "description": "Monitor digital identity exposure, track credentials leaked on the dark web, and protect accounts using real-time security alerts and automated mitigation protocols.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

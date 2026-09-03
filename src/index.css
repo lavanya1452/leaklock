@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, -apple-system, sans-serif;
+  
+  /* Shadow Earth Custom Colors */
+  --color-surface: #19120d;
+  --color-surface-dim: #19120d;
+  --color-surface-bright: #403831;
+  --color-surface-lowest: #130d08;
+  --color-surface-low: #211a15;
+  --color-surface-container: #251e19;
+  --color-surface-high: #302823;
+  --color-surface-highest: #3b332d;
+  --color-on-surface: #eee0d7;
+  --color-on-surface-variant: #d1c4bd;
+  --color-outline: #9a8e88;
+  --color-outline-variant: #4e4540;
+  
+  --color-primary: #d5c3b8;
+  --color-on-primary: #392e26;
+  
+  --color-tertiary: #fbbc00;
+  --color-on-tertiary: #402d00;
+  --color-tertiary-container: #291c00;
+  --color-on-tertiary-container: #ab7f00;
+  
+  --color-error: #ffb4ab;
+  --color-on-error: #690005;
+  --color-error-container: #93000a;
+  --color-on-error-container: #ffdad6;
+}
+
+/* Custom Tactical Glass / Glow Styling */
+.severity-glow-critical {
+  box-shadow: 0 0 12px rgba(251, 188, 0, 0.2);
+}
+
+.glow-amber {
+  box-shadow: 0 0 8px rgba(251, 188, 0, 0.3);
+}
+
+.glow-red {
+  box-shadow: 0 0 8px rgba(147, 0, 10, 0.4);
+}
+
+/* Custom Scrollbar for Tactical Vibe */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #130d08;
+}
+::-webkit-scrollbar-thumb {
+  background: #4e4540;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #fbbc00;
+}
